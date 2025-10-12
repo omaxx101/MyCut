@@ -8,7 +8,9 @@ plugins {
 android {
     namespace = "com.example.afrocut_mobile"
     compileSdk = flutter.compileSdkVersion
-    ndkVersion = flutter.ndkVersion
+
+    // Disable NDK to avoid installation issues
+    ndkVersion = "29.0.13113456"
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
