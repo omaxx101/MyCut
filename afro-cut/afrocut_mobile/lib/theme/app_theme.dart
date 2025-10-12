@@ -10,10 +10,10 @@ class AppTheme {
   static const Color warning = Color(0xFFF59E0B);
   
   // Neutral Colors
-  static const Color bg = Color(0xFFF8FAFC);
-  static const Color surface = Color(0xFFFFFFFF);
+  static const Color bg = Color.fromARGB(255, 0, 0, 0);
+  static const Color surface = Color.fromARGB(255, 0, 0, 0);
   static const Color surfaceVariant = Color(0xFFF1F5F9);
-  static const Color textPrimary = Color(0xFF1E293B);
+  static const Color textPrimary = Color.fromARGB(255, 250, 103, 6);
   static const Color textSecondary = Color(0xFF64748B);
   static const Color textTertiary = Color(0xFF94A3B8);
 
@@ -30,8 +30,8 @@ class AppTheme {
     colors: [highlight, Color(0xFFFF6B6B)],
   );
 
-  static ThemeData get light {
-    final ThemeData base = ThemeData.light(useMaterial3: true);
+  static ThemeData get light{
+    final ThemeData base = ThemeData.dark(useMaterial3: true);
     return base.copyWith(
       colorScheme: base.colorScheme.copyWith(
         primary: primary,
