@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 
 class AppTheme {
   // Brand Colors
-  static const Color primary = Color(0xFF1A1A2E);
+  static const Color primary = Color.fromARGB(255, 0, 0, 0);
   static const Color secondary = Color.fromARGB(255, 234, 90, 1);
-  static const Color accent = Color.fromARGB(255, 234, 90, 1);
-  static const Color highlight = Color(0xFFE94560);
+  static const Color accent = Color.fromARGB(255, 255, 116, 29);
+  static const Color highlight = Color.fromARGB(255, 255, 116, 29);
   static const Color success = Color(0xFF10B981);
   static const Color warning = Color(0xFFF59E0B);
   
